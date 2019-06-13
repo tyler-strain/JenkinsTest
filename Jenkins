@@ -27,16 +27,16 @@ stage('Four'){
       steps{
         echo "Running the unit test..."
         }
-        }
+}
         stage ('Integration Test'){
-				steps{
           agent {
               docker{
                     reuseNode false
                       image 'ubuntu'
                   }
-            }}
-steps{
-echo 'Running the integration test....'
-}}}
+            }
+	steps{
+		echo 'Running the integration test....'
+}
+}}
 }}}
