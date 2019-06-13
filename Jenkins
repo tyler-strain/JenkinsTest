@@ -37,4 +37,4 @@ image 'ubuntu'
 step{
 echo 'Running the integration test....'
 }}}
-}}}}
+}}}
